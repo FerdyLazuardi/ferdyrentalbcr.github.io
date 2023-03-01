@@ -25,21 +25,15 @@
     --shadow-high: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
-section{
-    scroll-margin-top: 100px;
-}
-
-html, body{
-    overflow-x: hidden;
-}
-  
-
-* {
+*{
     font-family: Helvetica;
     box-sizing: border-box;
     margin: 0;
-			padding: 0;
-          
+	padding: 0;  
+}
+
+section{
+    scroll-margin-top: 100px;
 }
 
 .logo {
