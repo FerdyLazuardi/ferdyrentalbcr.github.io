@@ -1,38 +1,45 @@
+/* pallete */
 :root {
+
+    /* primary color blue */
     --primary-color-darkblue05: #091B6F;
     --primary-color-darkblue04: #0D28A6;
     --primary-color-darkblue03: #5E70C4;
     --primary-color-darkblue02: #AEB7E1;
     --primary-color-darkblue01: #CFD4ED;
 
+    /* primary color lilme */
     --primary-color-lime05: #3D7B3F;
     --primary-color-lime04: #5CB85F;
     --primary-color-lime03: #92D094;
     --primary-color-lime02: #C9E7CA;
     --primary-color-lime01: #C9E7CA;
 
+    /* color alert */
     --alert-color-danger: #FA2C5A;
     --alert-color-warning: #F9CC00;
     --alert-color-success: #73CA5C;
 
+    /* color netral */
     --netral-color-05: #151515;
     --netral-color-04: #3C3C3C;
     --netral-color-03: #8A8A8A;
     --netral-color-02: #D0D0D0;
 
-
+    /* box shadow */
     --shadow-low: 0px 0px 4px rgba(0, 0, 0, 0.15);
     --shadow-high: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
-*{
+/* default setting */
+* {
     font-family: Helvetica;
     box-sizing: border-box;
     margin: 0;
-	padding: 0;  
+    padding: 0;
 }
 
-section{
+section {
     scroll-margin-top: 100px;
 }
 
@@ -41,7 +48,6 @@ section{
     height: 34px;
     background-color: var(--primary-color-darkblue04);
 }
-
 
 .navbar {
     background-color: #F1F3FF;
@@ -73,7 +79,6 @@ section{
     background-color: var(--primary-color-lime03);
     border-color: var(--primary-color-lime03);
 }
-  
 
 .homepage {
     left: 0px;
@@ -82,7 +87,6 @@ section{
 }
 
 .homepage-title {
-  
     color: #000;
     font-style: normal;
     font-weight: 700;
@@ -100,7 +104,6 @@ section{
     margin-bottom: 24px;
 }
 
-
 .container-fluid .btn {
     background-color: var(--primary-color-lime04);
     border-radius: 2px;
@@ -114,7 +117,6 @@ section{
     background-color: var(--primary-color-lime03);
     border-color: var(--primary-color-lime03);
 }
-
 
 .container .btn {
     background-color: var(--primary-color-lime04);
@@ -135,7 +137,7 @@ section{
 }
 
 .our-service h2 {
-    
+
     color: #000;
     font-style: normal;
     font-weight: 700;
@@ -145,7 +147,7 @@ section{
 }
 
 .our-service .desc {
-    
+
     color: #000000;
     font-weight: 400;
     font-size: 14px;
@@ -338,7 +340,7 @@ footer {
 }
 
 @media only screen and (min-width: 360px) {
-    .homepage-desc .btn{
-        margin-bottom:10px;
+    .homepage-desc .btn {
+        margin-bottom: 10px;
     }
 }
