@@ -49,6 +49,7 @@ section {
     background-color: var(--primary-color-darkblue04);
 }
 
+/* navbar css */
 .navbar {
     background-color: #F1F3FF;
     box-shadow: var(--shadow-low);
@@ -80,6 +81,7 @@ section {
     border-color: var(--primary-color-lime03);
 }
 
+/* homepage css */
 .homepage {
     left: 0px;
     top: 0px;
@@ -96,7 +98,6 @@ section {
 }
 
 .homepage-desc {
-
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -132,12 +133,12 @@ section {
     border-color: var(--primary-color-lime03);
 }
 
+/* our service css */
 .our-service {
     margin-top: 100px;
 }
 
 .our-service h2 {
-
     color: #000;
     font-style: normal;
     font-weight: 700;
@@ -147,7 +148,6 @@ section {
 }
 
 .our-service .desc {
-
     color: #000000;
     font-weight: 400;
     font-size: 14px;
@@ -163,6 +163,7 @@ section {
     margin-bottom: 18px;
 }
 
+/* why use css */
 .why-use {
     margin-top: 100px;
 }
@@ -206,6 +207,7 @@ section {
     color: #000;
 }
 
+/* testimonial */
 .testimonial {
     margin-top: 100px;
 }
@@ -223,6 +225,7 @@ section {
     background-color: #F1F3FF;
 }
 
+/* testimonial owl carousel css */
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
     width: 32px;
@@ -239,6 +242,7 @@ section {
     background: var(--primary-color-lime04);
 }
 
+/* getting started css */
 .getting-started {
     margin-top: 100px;
 }
@@ -264,6 +268,7 @@ section {
     margin-bottom: 60px;
 }
 
+/* faq css */
 .faq {
     margin-top: 100px;
 }
@@ -293,6 +298,7 @@ section {
     line-height: 20px;
 }
 
+/* footer css */
 footer {
     margin-top: 150px;
 }
@@ -337,10 +343,4 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-}
-
-@media only screen and (min-width: 360px) {
-    .homepage-desc .btn {
-        margin-bottom: 10px;
-    }
 }
